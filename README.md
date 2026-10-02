@@ -1,2 +1,2 @@
 # Zoo Programming Language
-<img width="200" height="200" alt="ZOO" src="https://github.com/user-attachments/assets/282ff90f-41bd-4716-b9d1-247a8acdf9e9" />
+<img width="986" height="990" alt="zoo (1)" src="https://github.com/user-attachments/assets/5b4ca22d-a4d3-47e9-83ca-5da425a94e45" />
