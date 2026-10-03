@@ -1,4 +1,4 @@
-# Zoo Programming Language
+## Zoo Programming Language
 <img width="200" height="200" alt="zoo (4)" src="https://github.com/user-attachments/assets/a48b77af-5dc8-459c-b3a5-c3c13364d9f1">
 
 * Zoo is an experimental interpreted programming language I am building for educational purposes
@@ -9,6 +9,13 @@ flowchart LR
    Lexer --> Parser
    Parser --> Evaluate
 ```
+
+## Parser
+*The parser uses `the recursive descent` technique; 
+*each grammar rule becomes a parsing methods.
+```mermaid
+flowchart TD
+   
 
 ## Grammaticals rules
 * You will find the various rules of the language below.
