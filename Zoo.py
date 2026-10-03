@@ -12,11 +12,4 @@ class Zoo:
                   root_Ast=Parser(Tokens).parse()
                   if not Error.had_error:
                          Interpreter().interpret(root_Ast)
-"""
-le main et le lox
 
- Ast=Parser(Tokens).parse()
-      print(Ast)
-      Interpreter().interpret(Ast)
-
-"""
