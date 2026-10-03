@@ -16,8 +16,16 @@ flowchart LR
 ```mermaid
 flowchart TD
    A["`equality()
-    (==,!=)`"] --> B["`comparison
+    (==,!=)`"] --> B["`comparison()
                        (>,<,>=,<=)`"]
+   B--> C["`term()
+            (-,+)`"]
+   C-->D["`factor()
+           (/,*)`"]
+   D-->E["`unary()
+           (!,-)`"]
+   E -->F["`primary()
+        (NUMBER,STRING,"true","false","nil")`"]
 
 ```
 ## Grammaticals rules
