@@ -10,13 +10,9 @@ flowchart LR
    Parser --> Evaluate
 ```
 
-## Parser
-*The parser uses `the recursive descent` technique; 
-*each grammar rule becomes a parsing methods.
-```mermaid
-flowchart TD
-   
-
+## The Parser
+* The parser uses `the recursive descent` technique 
+* each grammar rule becomes a parsing methods.
 ## Grammaticals rules
 * You will find the various rules of the language below.
 ```text
