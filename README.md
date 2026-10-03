@@ -10,7 +10,7 @@ flowchart LR
    Parser --> Evaluate
 ```
 
-## Grammatical rules
+## Grammaticals rules
 ```text
   programm-> declaration* EOF
 
