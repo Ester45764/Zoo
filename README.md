@@ -11,6 +11,7 @@ flowchart LR
 ```
 
 ## Grammaticals rules
+* You will find the various rules of the language below.
 ```text
   programm-> declaration* EOF
 
