@@ -95,7 +95,8 @@ print somme ;
 
 ```
 
-
+## Notice
+* Zoo is a language currently under development any contributions would be welcome.
 
 
 
