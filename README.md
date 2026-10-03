@@ -15,16 +15,16 @@ flowchart LR
 * each grammar rule becomes a parsing methods.
 ```mermaid
 flowchart TD
-   A["`equality()
-    (==,!=)`"] --> B["`comparison()
+   A["`Equality()
+    (==,!=)`"] --> B["`Comparison()
                        >,<,>=,<=`"]
-   B--> C["`term()
+   B--> C["`Term()
             -,+`"]
-   C-->D["`factor()
+   C-->D["`Factor()
            /,*`"]
-   D-->E["`unary()
+   D-->E["`Unary()
            !,-`"]
-   E -->F["`primary()
+   E -->F["`Primary()
         NUMBER,STRING,true,false,nil`"]
 
 ```
