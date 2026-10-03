@@ -5,7 +5,7 @@ Zoo is an experimental programming language I am building for educational purpos
 ## Language Structure
 ``` mermaid
 flowchart LR
-   Source Code -->Lexer
+   A[Source Code] -->Lexer
    Lexer --> Parser
    Parser --> Evaluate
 ```
