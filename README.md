@@ -26,8 +26,8 @@ flowchart TD
            !,-`"]
    E -->F["`Primary()
         NUMBER,STRING,true,false,nil`"]
-
 ```
+* This structure allows for the implicit handling of operator precedence, from highest to lowest.
 ## Grammaticals rules
 * You will find the various rules of the language below.
 ```text
