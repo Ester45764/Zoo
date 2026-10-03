@@ -19,12 +19,15 @@ flowchart LR
   var_declaration -> "var" IDENTIFIER ("=" expression)? ";" ;
 
   -------------------------------------------------------------------------->
+
   statement      → exprStmt 
                | ifStmt
                | printStmt
                | whileStmt
                | blockStmt ;
+
   --------------------------------------------------------------------------->
+
   exprStmt -> expression ";" ;
 
   ifStmt  ->  "if" "(" expression ")" statement ("else" statement)?;
@@ -34,7 +37,9 @@ flowchart LR
   whileStmt -> "while" "(" expression ")"  statement ;
 
   blockStmt-> "{"declaration*"}"
+
   ----------------------------------------------------------------------------->
+
   expression    -> asign;
 
   asign -> IDENTIFIER  "=" asign | Or_LG;
