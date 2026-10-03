@@ -13,8 +13,11 @@ flowchart LR
 ## Grammatical rules
 ```text
   programm-> declaration* EOF
+
   declaration -> statement|var_declaration
+
   var_declaration -> "var" IDENTIFIER ("=" expression)? ";" ;
+
   -------------------------------------------------------------------------->
   statement      → exprStmt 
                | ifStmt
@@ -23,20 +26,33 @@ flowchart LR
                | blockStmt ;
   --------------------------------------------------------------------------->
   exprStmt -> expression ";" ;
+
   ifStmt  ->  "if" "(" expression ")" statement ("else" statement)?;
+
   printStmt -> "print" expression  ;
-  whileStmt -> "while" "(" expression ")"  statement ; 
+
+  whileStmt -> "while" "(" expression ")"  statement ;
+
   blockStmt-> "{"declaration*"}"
   ----------------------------------------------------------------------------->
   expression    -> asign;
+
   asign -> IDENTIFIER  "=" asign | Or_LG;
+
   Or_LG  -> AND_LG ("or" AND_LG);
+
   AND_LG -> equality ("and" equality)*;
+
   equality       → comparison ( ( "!=" | "==" ) comparison )* ;
+
   comparison     → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
+
   term           → factor ( ( "-" | "+" ) factor )* ;
-  factor         → unary ( ( "/" | "*" ) unary )* ; 
+
+  factor         → unary ( ( "/" | "*" ) unary )* ;
+
   unary          → ( "!" | "-" ) unary | primary ;
+
   primary        → NUMBER | STRING | "true" | "false" | "nil";
                | "(" expression ")" ;
 
