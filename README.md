@@ -15,16 +15,19 @@ flowchart LR
   programm-> declaration* EOF
   declaration -> statement|var_declaration
   var_declaration -> "var" IDENTIFIER ("=" expression)? ";" ;
+  -------------------------------------------------------------------------->
   statement      → exprStmt 
                | ifStmt
                | printStmt
                | whileStmt
                | blockStmt ;
+  --------------------------------------------------------------------------->
   exprStmt -> expression ";" ;
   ifStmt  ->  "if" "(" expression ")" statement ("else" statement)?;
   printStmt -> "print" expression  ;
   whileStmt -> "while" "(" expression ")"  statement ; 
   blockStmt-> "{"declaration*"}"
+  ----------------------------------------------------------------------------->
   expression    -> asign;
   asign -> IDENTIFIER  "=" asign | Or_LG;
   Or_LG  -> AND_LG ("or" AND_LG);
