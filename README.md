@@ -25,7 +25,7 @@ flowchart TD
    D-->E["`unary()
            (!,-)`"]
    E -->F["`primary()
-        (NUMBER,STRING,"true","false","nil")`"]
+        (NUMBER,STRING,true,false,nil)`"]
 
 ```
 ## Grammaticals rules
