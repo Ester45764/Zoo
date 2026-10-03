@@ -13,6 +13,11 @@ flowchart LR
 ## The Parser
 * The parser uses `the recursive descent` technique 
 * each grammar rule becomes a parsing methods.
+```mermaid
+flowchart TD
+A["`equality()
+(==,!=)`"]
+```
 ## Grammaticals rules
 * You will find the various rules of the language below.
 ```text
