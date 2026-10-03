@@ -81,3 +81,20 @@ flowchart TD
                | "(" expression ")" ;
 
 ```
+#Language exemple 
+```text
+var somme=0;
+var n=4;
+for (var i =0;i<=n;i=i+1){
+     somme=somme+i;
+}
+print somme ;
+
+
+```
+
+
+
+
+
+
