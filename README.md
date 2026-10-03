@@ -83,6 +83,7 @@ flowchart TD
 ```
 
 ## Language exemple 
+* It is a dynamically typed language, inspired by the syntax of the C language.
 ```text
 var somme=0;
 var n=4;
